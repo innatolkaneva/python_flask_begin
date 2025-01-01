@@ -22,7 +22,7 @@ def search():
     return (
         f'Seach for {cell_tower_ids} cell tower. Seach criteria: '
         f'phone_prefix = {phone_prefix}'
-        f'protocols = {protocols}'
+        f'protocols = {protocols}, '
         f'signal_level = {signal_level}'
     )
 
