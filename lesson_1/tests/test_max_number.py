@@ -1,6 +1,6 @@
 import unittest
 
-from max_number import app
+from lesson_1.max_number import app
 class TestMaxNumberApp(unittest.TestCase):
     def setUp(self):
         app.config['TESTING'] = True
