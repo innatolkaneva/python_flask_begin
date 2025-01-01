@@ -1,4 +1,4 @@
-from good_day_app import app
+from lesson_1.good_day_app import app
 import unittest
 import datetime
 from freezegun import freeze_time
